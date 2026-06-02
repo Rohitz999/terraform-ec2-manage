@@ -1,0 +1,32 @@
+# Core Terraform directories
+.terraform/
+
+# Hide local provider lock files if you choose to track them elsewhere.
+# Note: HashiCorp recommends COMMITTING .terraform.lock.hcl to source control 
+# to ensure consistent provider versions across environments. Uncomment below if needed.
+# .terraform.lock.hcl
+
+# Local state files and backups
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude variable files containing sensitive data (passwords, API keys, secrets)
+*.tfvars
+*.tfvars.json
+
+# Exclude override files (local testing modifications)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include tfplan files if you want to prevent committing generated execution plans
+*tfplan*
+
+# CLI configuration files
+.terraformrc
+terraform.rc
