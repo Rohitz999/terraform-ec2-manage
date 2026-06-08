@@ -1,7 +1,7 @@
 #terraform {
 #  backend "s3" {
-#    bucket = "tom-c1dxoys7"
+#    bucket = "terrafrom-state-manage"
 #    key    = "uat/ec2/terraform.tfstate"
-#    region = "eu-central-1"
+#    region = "ap-south-1"
 #  }
 #}
